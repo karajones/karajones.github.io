@@ -1,3 +1,3 @@
 theme: jekyll-theme-minimal
 url: https://karajones.github.io
-source: https://karajones.github.io
+include: file_conversion.md
