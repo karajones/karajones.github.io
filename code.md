@@ -7,7 +7,7 @@
 | `head` | print beginning of file |
 | `tail` | print end of file |
 | `less filename` | view file interactively |
-| `less compressed_filename | head` | print beginning of compressed file |
+| `less compressed_filename \| head` | print beginning of compressed file |
 
 #### Usage
 `cat filename` | print entire contents of file
