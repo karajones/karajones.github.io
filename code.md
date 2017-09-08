@@ -1,13 +1,13 @@
 ### Looking at your stuff
 #### Commands
 
-code | function
----- -------- | -------------
-`cat` | print entire contents of file
-`head` | print beginning of file
-`tail` | print end of file
-`less filename` | view file interactively
-`less compressed_filename | head` | print beginning of compressed file
+| code | function |
+|------|---------|
+| `cat` | print entire contents of file |
+| `head` | print beginning of file |
+| `tail` | print end of file |
+| `less filename` | view file interactively |
+| `less compressed_filename | head` | print beginning of compressed file |
 
 #### Usage
 `cat filename` | print entire contents of file
@@ -23,7 +23,7 @@ code | function
 `tail -c 10 filename` | show last 10 characters of file
 
 **Less**
-`cat filename | less` | print file interactively
+`less filename` | print file interactively
 `down arrow` or `return` | scroll down
 `up arrow` | scroll up
 `q` | quit interactive mode
