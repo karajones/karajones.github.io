@@ -1,7 +1,8 @@
 ## Uploading and downloading
 
 ### Commands
-Note: these are used while you are not logged into DLX
+
+> Note: these are used while you are not logged into DLX
 
 | code | function |
 | ----- | ----- |
@@ -9,7 +10,8 @@ Note: these are used while you are not logged into DLX
 | `scp -r` | download or upload a directory |
 
 ### Usage examples
-Note: the `.` in these examples must be included or an error will occur.
+
+> Note: the `.` in these examples must be included or an error will occur.
 
 **Uploading to DLX**
 
