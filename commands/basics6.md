@@ -8,7 +8,7 @@ These commands should **not** be used on DLX because they are dangerous, forbidd
 
 | code | why you shouldn't use it |
 | ----- | ----- |
-| `locate filename` | Doesn’t do anything |
+| `locate filename` | doesn’t actually locate anything |
 | `rename` | doesn’t seem to work properly on our version of Linux |
 | `prename` | not recognized as a command |
 
