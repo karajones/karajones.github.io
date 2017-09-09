@@ -1,5 +1,5 @@
-### Looking at your stuff
-#### Commands
+## Looking at your stuff
+### Commands
 
 | code | function |
 |------|-----|
@@ -9,9 +9,9 @@
 | `less` | view file interactively |
 | `less \| head` | print beginning of compressed file |
 
-#### Usage examples
+### Usage examples
 
-**_Head_**
+**Head**
 
 | code | function |
 |------|-----|
@@ -20,7 +20,7 @@
 | `head -c 10 filename` | show first 10 characters of file |
 
 
-**_Tail_**
+**Tail**
 
 | code | function |
 |------|-----|
@@ -29,7 +29,7 @@
 | `tail -c 10 filename` | show last 10 characters of file |
 
 
-**_Less_**
+**Less**
 
 | code | function |
 |------|-----|
@@ -39,7 +39,7 @@
 | `q` | quit interactive mode |
 
 
-**_View compressed files_**
+**View contents of compressed files**
 
 | code | function |
 |------|-----|
