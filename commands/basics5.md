@@ -12,7 +12,7 @@
 
 **Uncompress tarballs (directories)**
 
-Note: You may see the commands below written with a flag `-` (e.g. `tar -xvf`), but the commands work with or without a flag.
+> Note: You may see the commands below written with a flag `-` (e.g. `tar -xvf`), but the commands work with or without a flag.
 
 | code | function |
 | ----- | ----- |
@@ -22,7 +22,7 @@ Note: You may see the commands below written with a flag `-` (e.g. `tar -xvf`), 
 
 **Compress files**
 
-Note: When compressing files and directories, the name you want for the compressed file should come _before_ the name of the file to be compressed (see below). Always include the extension in the new filename otherwise you will not know what format it has been compressed into.
+> Note: When compressing files and directories, the name you want for the compressed file should come _before_ the name of the file to be compressed (see below). Always include the extension in the new filename otherwise you will not know what format it has been compressed into.
 
 | code | function |
 | ----- | ----- |
