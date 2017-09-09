@@ -1,16 +1,18 @@
-### Navigating around
+## Navigating around
 
-> Summary:
-> 1. There are two login nodes
-> 2. Use `pwd` to find out where you are
-> 3. Use `ls` to list the contents of a directory
-> 4. Use `cd` to navigate to a different directory
+```
+Summary:
+1. There are two login nodes
+2. Use `pwd` to find out where you are
+3. Use `ls` to list the contents of a directory
+4. Use `cd` to navigate to a different directory
+```
 
-**Where am I? Part I**
+### Where am I? Part I
 
 When you first log in to the DLX you will on one of the login nodes. You can tell which login node you are on by the prompt, which will either say `@dlxlogin2-1` or `@dlxlogin2-2`. It almost never matters which login node you are logged into, so don’t worry about that for now.
 
-**Where am I? Part II**
+### Where am I? Part II
 
 If you are ever lost on the DLX, you can find out where you are by typing the magic code:
 	pwd
