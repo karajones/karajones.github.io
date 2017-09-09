@@ -16,7 +16,7 @@ Note: the `.` in these examples must be included or an error will occur.
 | code | function |
 | ----- | ----- |
 | `scp filename userid@dlx.uky.edu:.` | upload a file to your home directory on DLX |
-| `scp filename userid@dlx.uky.edu:path\to\directory\.` | upload a file to any of your directories on DLX |
+| `scp filename userid@dlx.uky.edu:path\to\.` | upload a file to any of your directories on DLX |
 | `scp -r directory userid@dlx.uky.edu:.` | upload a directory to DLX |
 | `scp filename userid@dlx.uky.edu:new_filename` | upload a file to DLX and rename it |
 
@@ -24,6 +24,6 @@ Note: the `.` in these examples must be included or an error will occur.
 
 | code | function |
 | ----- | ----- |
-| `scp userid@dlx.uky.edu:path\to\file\filename .` | download a file from DLX to your computer |
+| `scp userid@dlx.uky.edu:path\to\filename .` | download a file from DLX to your computer |
 | `scp -r userid@dlx.uky.edu:directory .` | download a directory from DLX to your computer |
-| `scp userid@dlx.uky.edu:path\to\file\filename new_filename` | download a file from DLX to your computer and rename it |
+| `scp userid@dlx.uky.edu:path\filename new_filename` | download a file from DLX to your computer and rename it |
