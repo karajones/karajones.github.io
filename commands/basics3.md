@@ -1,15 +1,28 @@
-### Uploading and downloading
-Note: these are used while you are not logged into the DLX
+## Uploading and downloading
 
-#### Commands
-`scp` download or upload a file
-`scp -r` download or upload a directory
+### Commands
+Note: these are used while you are not logged into DLX
 
-#### Usage
-`scp filename userid@dlx.uky.edu:.`  upload a file to the DLX
+| code | function |
+| ----- | ----- |
+| `scp` | download or upload a file |
+| `scp -r` | download or upload a directory |
 
-`scp -r directory userid@dlx.uky.edu:.` upload a directory to the DLX
+### Usage examples
+Note: the `.` in these examples must be included or an error will occur.
 
-`scp userid@dlx.uky.edu:filename .` download a file from the DLX to your computer
+**Uploading to DLX**
 
-`scp -r userid@dlx.uky.edu:directory .` download a directory from the DLX to your computer
+| code | function |
+| ----- | ----- |
+| `scp filename userid@dlx.uky.edu:.` | upload a file to your home directory on DLX |
+| `scp filename userid@dlx.uky.edu:path\to\directory\.` | upload a file to any of your directories on DLX |
+| `scp -r directory userid@dlx.uky.edu:.` | upload a directory to DLX |
+| `scp filename userid@dlx.uky.edu:new_filename` | upload a file to DLX and rename it |
+
+**Uploading from DLX**
+
+| code | function |
+| ----- | ----- |
+| `scp userid@dlx.uky.edu:path\to\file\filename .` | download a file from DLX to your computer |
+| `scp -r userid@dlx.uky.edu:directory .` | download a directory from DLX to your computer |
