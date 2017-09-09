@@ -20,9 +20,10 @@ Note: the `.` in these examples must be included or an error will occur.
 | `scp -r directory userid@dlx.uky.edu:.` | upload a directory to DLX |
 | `scp filename userid@dlx.uky.edu:new_filename` | upload a file to DLX and rename it |
 
-**Uploading from DLX**
+**Downloading from DLX**
 
 | code | function |
 | ----- | ----- |
 | `scp userid@dlx.uky.edu:path\to\file\filename .` | download a file from DLX to your computer |
 | `scp -r userid@dlx.uky.edu:directory .` | download a directory from DLX to your computer |
+| `scp userid@dlx.uky.edu:path\to\file\filename new_filename` | download a file from DLX to your computer and rename it |
