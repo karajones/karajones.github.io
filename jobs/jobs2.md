@@ -1,12 +1,15 @@
 ## Modules
 
-> Summary
-> 1. View all available modules using `module avail`
-> 2. View modules loaded into your environment using `module list`
-> 3. Load modules into your environment using `module load`
-> 4. Switch module versions using `module switch`
-> 4. Unload modules using `module unload`
-> 5. Load modules automatically by adding them to your `.bashrc` file
+**Summary**
+
+1. View all available modules using `module avail`
+2. View modules loaded into your environment using `module list`
+3. Load modules into your environment using `module load`
+4. Switch module versions using `module switch`
+4. Unload modules using `module unload`
+5. Load modules automatically by adding them to your `.bashrc` file
+
+----
 
 Modules are programs that have been pre-installed on DLX for your computing pleasure. Before you install a program, check to see if there is already a module for it. 
 
