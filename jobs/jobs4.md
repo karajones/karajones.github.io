@@ -40,6 +40,7 @@ Finally, the last line tells the computer to run the program `pyrad` with the pa
 ### Writing your own shell script
 
 **Bash declaration**
+
 This one is easy. Every bash script needs to start with this line:
 ```
 #!/bin/bash
