@@ -56,7 +56,7 @@ scp -r ~/Desktop/more_things user001@dlx.uky.edu:.
 
 ### Downloading: Like uploading, but backwards
 
-Want to get something off of DLX and onto your computer? Again, you want to open up a Terminal that is *not* logged into the DLX. Then just reverse the commands. 
+Want to get something off of DLX and onto your computer? Again, you want to open up a Terminal that is *not* logged into DLX. Then just reverse the commands. 
 
 Download `things.txt` from the home directory on DLX to whatever directory I’m currently in on my computer:
 ```
@@ -73,8 +73,10 @@ Download the `more_things` directory to my `Desktop`:
 scp -r user001@dlx.uky.edu:more_things ~/Desktop/.
 ```
 
-> Note: All the scenarios outlined for uploading are the same as downloading. Just remember the order:
-> `scp` `file_i_want_to_move` `where_i_want_to_move_it`
-> `scp` `-r` `directory_i_want_to_move` `where_i_want_to_move_it`
+All the scenarios outlined for uploading are the same as downloading. Just remember the order:
+
+`scp` `file_i_want_to_move` `where_i_want_to_move_it`
+
+`scp` `-r` `directory_i_want_to_move` `where_i_want_to_move_it`
 
 [\< Navigating around](navigating.html)   [Moving your stuff around \>](moving.html)
