@@ -27,8 +27,8 @@ module list
 Which should return something like this:
 ```
 Currently Loaded Modulefiles:
-	  1) dot                       3) ifort/13.0.0.079          5) mpi/openmpi/intel/1.6.2   7) gcc/4.9.1
-	  2) icc/13.0.0.079            4) imkl/11.1.3               6) emacs/23.1                8) R/3.1.2
+1) dot                       3) ifort/13.0.0.079          5) mpi/openmpi/intel/1.6.2   7) gcc/4.9.1
+2) icc/13.0.0.079            4) imkl/11.1.3               6) emacs/23.1                8) R/3.1.2
 ```
 
 If the program you want to use is in this list, then it’s already loaded. If not, then you need to load it. For example, one of the available modules is `mrbayes/3.2.1/default`.
@@ -41,9 +41,9 @@ module load mrbayes
 Now if you list your modules, `mrbayes` should be on the list:
 ```
 Currently Loaded Modulefiles:
-	  1) dot                       4) imkl/11.1.3               7) gcc/4.9.1
-	  2) icc/13.0.0.079            5) mpi/openmpi/intel/1.6.2   8) R/3.1.2
-	  3) ifort/13.0.0.079          6) emacs/23.1                9) mrbayes/3.2.1/default
+1) dot                       4) imkl/11.1.3               7) gcc/4.9.1
+2) icc/13.0.0.079            5) mpi/openmpi/intel/1.6.2   8) R/3.1.2
+3) ifort/13.0.0.079          6) emacs/23.1                9) mrbayes/3.2.1/default
 ```
 
 What if there are multiple versions of the same program? For instance, there are two versions of `emacs`:
