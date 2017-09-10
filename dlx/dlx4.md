@@ -53,7 +53,7 @@ Place a copy of `things.txt` in the `packages` directory:
 cp things.txt packages/.
 ```
 
-Rename `things.txt` to `stuff.txt` and place a copy of it in my `packages` directory:
+Rename `things.txt` to `stuff.txt` and place a copy of it in the `packages` directory:
 ```
 cp things.txt packages/stuff.txt
 ```
@@ -64,7 +64,7 @@ Rename `things.txt` to `stuff.txt` *without moving it anywhere*. This will leave
 cp things.txt stuff.txt
 ```
 
-Place a copy of the `packages` directory in the `stuff` directory, which lives in my home directory:
+Place a copy of the `packages` directory in the `stuff` directory, which lives in the home directory:
 ```
 cp -r packages ~/stuff
 ```
