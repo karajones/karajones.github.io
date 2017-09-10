@@ -8,13 +8,13 @@
 
 ### Where am I?
 
-When you first log in to the DLX you will on one of the login nodes. You can tell which login node you are on by the looking at the prompt, which will either say `@dlxlogin2-1` or `@dlxlogin2-2`. It almost never matters which login node you are logged into, so don’t worry about that for now.
+When you first log on to DLX you will on one of the login nodes. You can tell which login node you are on by the looking at the prompt, which will either say `@dlxlogin2-1` or `@dlxlogin2-2`. It almost never matters which login node you are logged into, so don’t worry about that for now.
 
 If you are ever uncertain of where you are within DLX, use the command:
 ```
 pwd
 ```
-This command will return the path to the directory you are currently in. For example, if you just logged in you will be in your home directory, and the response will be something like `/home/user001`.
+This command will return the path to the directory you are currently in. For example, if you just logged in you will be in your home directory, and the output will be something like `/home/user001`.
 
 ### Navigating and viewing directory contents
 
@@ -22,7 +22,8 @@ Want to know what folders, files, etc. are in the current directory? To list eve
 ```
 ls
 ```
-Depending on your terminal set-up files, compressed files, and directories should be different colors. For instance, my home directory looks a little like this (except with more stuff):
+  
+Which will output something like this:
 ```
 packages      stuff.fastq.gz      slurm-574242.out
 ```
@@ -32,7 +33,7 @@ cd packages
 ```
 > Tip: Not good at typing and/or spelling? No problem! Just start typing `cd p` and then hit the `tab` key. If there is only one item that starts with a `p`, then the rest of the name will fill in automatically. If there are other items in the directory that start with a `p`, then the computer will make an unhappy noise or flash at you and then not do anything. If you insist on repeatedly hitting the tab key after that then it will give you a list of all the other files that start with `p`. For example:
 > 	`packages/     pyrad.sh`
-> You can then type the first two letters `cd pa` and `tab` and it will fill in the word `packages`. By the way this works for all the commands, not just `cd`.
+> You can type the first two letters `cd pa` and press `tab` and it will fill in the word `packages`. By the way this works for all the commands, not just `cd`.
 
 
 ### Shortcuts for navigating
