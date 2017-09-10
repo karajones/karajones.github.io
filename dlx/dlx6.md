@@ -7,7 +7,7 @@
 > 4. Scroll through a file using `less`
 > 5. View the contents of compressed files using `less filename |` and `head` or `tail`
 
-You’ve already learned about having a peak into a directory using `ls`, but what about looking into your files? How you approach this is determined by: 
+You’ve already learned about having a peek into a directory using `ls`, but what about looking into your files? How you approach this is determined by: 
 1. what you want to know about your file
 2. how large the file is
 3. if the file is compressed
@@ -15,7 +15,7 @@ You’ve already learned about having a peak into a directory using `ls`, but wh
 ### Looking at small files
 If you *know* that your file is small, then you can use the `cat` (concatenate) command. It will list the entire contents of the file on the screen.
 
-> Note: Why are we using a concatenate command to look at a file? I don’t know, but that’s what the command does. It can also acutally concatenate, so have a look at [Modifying files](modifying.html) if you’re interested in that function.
+> Note: Why are we using a concatenate command to look at a file? I don’t know, but that’s what the command does. It can also actually concatenate, so have a look at [Modifying files](modifying.html) if you’re interested in that function.
 
 Print the contents of `stuff.txt` to the screen:
 ```
@@ -28,6 +28,7 @@ cat stuff.txt
 As illustrated above, if you `cat` a big file it will probably be unhelpful. Instead, you can look at parts of the file using the commands `head`, `tail`, and `less`.
 
 **Head**
+
 First up is `head`, which lets you look at the beginning of the file.
 
 Print the first 10 lines of `stuff.txt`:
@@ -120,11 +121,11 @@ CATGCCTCACCAAGTTTGGTGCATGGAGTAAAATGTAATTAAAGGATACAAATGGATTCCAGACATCATCCAGCAGAGAT
 +
 EHIIIEFE1FEGE@<1DE=<1<1<@1D11<<<<@EG?1<CFD1111<<<FF1FGECFEEDF1<DCDC@F11<1<<1<<1<11<<D<C11<C<E<<1<D1EHE11<<FHCF1G1<1C1<111<CFC@11<GH?DEH1F.CC?G1<D@
 @HWI-ST876:512:HCK2TBCXX:1:1101:19253:3820 1:N:0:
-	CTTGCAAATCACCAGAAGGCGGTTCCTGAATGAATGGGAAGCCTTCAAGAAGGTGATAAGCAGGAGAACCATACGAAGGCGCATAACGATACCACTGACCCTCAGCAATCTTAAACTTCTTAGACGAATCACCAGAACGGAAAACA
+CTTGCAAATCACCAGAAGGCGGTTCCTGAATGAATGGGAAGCCTTCAAGAAGGTGATAAGCAGGAGAACCATACGAAGGCGCATAACGATACCACTGACCCTCAGCAATCTTAAACTTCTTAGACGAATCACCAGAACGGAAAACA
 +
 CG<F11<1<DFC?1<CFH?GEHE<CCEC1<<<D1CDHH@1C1<<<D1<D1<CHH@C111<DDGE0D<11<1<<GCE10<C<C/<011DCE@/<C1<<GG1D11<1F1C<11DC1<C11<<C<D@?CF/EH?EH1<<<CHE00C###
 @HWI-ST876:512:HCK2TBCXX:1:1101:6272:2502 1:N:0:
-	CATGCGCCGCTCTGTTTTCTTTTGGGTGGGGGGCTTGTTTTTCTTTTTAGAGGCAGAATGCTGGGGAGCCGGTCCATACCGTGGATTATAAACCGGCTCCTCAGCATTCTGATTGGCTGCAAGCCATGTTATAACCACTGAAAGTT
+CATGCGCCGCTCTGTTTTCTTTTGGGTGGGGGGCTTGTTTTTCTTTTTAGAGGCAGAATGCTGGGGAGCCGGTCCATACCGTGGATTATAAACCGGCTCCTCAGCATTCTGATTGGCTGCAAGCCATGTTATAACCACTGAAAGTT
 ```
 
 Example `less stuff.txt.gz | head | cut -c 1-20` output:
