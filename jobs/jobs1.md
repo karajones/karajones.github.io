@@ -25,7 +25,7 @@ your.email@uky.edu
 
 That’s it! Now you never have to worry about that file again.
 
-#### .bash\_profile
+### .bash\_profile
 
 Your `.bash_profile` is extremely important. This file is loaded each time you log in to your account. It does two main things: it tells the system to load `.bashrc` and it includes a place to put the paths to programs.
 
@@ -43,7 +43,7 @@ If you `cat` your `.bash_profile`, it will probably look something like this:
 
 The `#` (hash) sign indicates lines with comments that the system does not read. Do NOT change anything in this file above the `# User specific environment` comment. Paths to programs will be place below that comment. See [Installing programs](#) for more details.
 
-#### .bashrc
+### .bashrc
 
 `.bashrc` is also loaded each time you log in to your account. It primarily used as a place to list the module that you want to load each time you want to log in:
 ```
