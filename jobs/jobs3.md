@@ -69,7 +69,7 @@ With `...` representing all the other stuff you have to add to make the command 
 
 ---- 
 
-***OPTION 2: Add the path to your `.bash_profile`***
+**OPTION 2: Add the path to your `.bash_profile`**
 
 If you add the path of the program to your `.bash_profile`, you can call the program’s commands from *anywhere*. No more remembering paths. No more long paths with major typo potential. There are two easy steps:
 
