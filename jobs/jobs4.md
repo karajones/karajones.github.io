@@ -9,7 +9,9 @@ Summary
 
 ----
 
-A shell script is a script to give commands to a computer shell through the command line. The shell is what interprets the commands so that the computer knows what to do. To run programs on the computing cluster's nodes, you will have to submit a shell script through the batch scheduler. There are three main things that you should include in your shell script:
+A shell script is a script to give commands to a computer shell through the command line. The shell is what interprets the commands so that the computer knows what to do. To run programs on the computing cluster's nodes, you will have to submit a shell script through the batch scheduler. Shell scripts should be written in a plain text editor and be given the extension `.sh`.
+
+There are three main things that you should include in your shell script:
 1. bash declaration
 2. SBATCH commands
 3. script to run your program
@@ -63,6 +65,7 @@ The partition is the type of node you wish to use. You should choose a partition
 For example, if you are running a short job that will only use two processing cores, then you should choose PartNod. For a job that needs lots of RAM, such as many genome assembly programs, choose FatComp. For most programs, you will probably use the Long node, unless you are running a program that is capable of processing parallel runs on many cores at once.
 
 The partitions and their specifications for job length and number of cores:
+
 | partition | length of job | number of cores |
 | ----- | ----- | ----- |
 | PartNod | less than 12 hours | 1 to 15 cores |
@@ -73,6 +76,7 @@ The partitions and their specifications for job length and number of cores:
 \* high memory node (512 GB per node vs 64 GB for other nodes)
 
 There are also some specialized partitions:
+
 | partition | what it's for | length of job | number of cores |
 | ----- | ----- | ----- | ----- |
 | debug | for testing programming to see if the code works | up to 1 hour | 1 to 16 cores |
