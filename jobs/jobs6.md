@@ -1,6 +1,6 @@
-## Improving efficiency for your jobs
+## Improving the efficiency of your jobs
 
-When one of your jobs is running on a node then you "own" that node. Nobody else can use it. So if you are using very little of the node's computing resources, then that is very inefficient. But how do you know if your job is running efficiently? One way is to check the number of threads that your job is using. One thread usually represents a single task running on one processing core. For example, DLX standard compute nodes have one thread per core and 16 cores, so you can run up to 16 tasks. If you run more than 16 tasks, then the node you are using will process the data more slowly as it tries to switch back and forth between tasks.
+When one of your jobs is running on a node then you "own" that node. Nobody else can use it. So if you are using very little of the node's computing resources, then that is inefficient. But how do you know if your job is running efficiently? One way is to check the number of threads that your job is using. One thread usually represents a single task running on a processing core. For example, DLX standard compute nodes have one thread per core and 16 cores, so you can run up to 16 tasks. If you run more than 16 tasks, then the node you are using will process the data more slowly as it tries to switch back and forth between tasks.
 
 ### How many threads is my job using?
 
@@ -32,8 +32,8 @@ This will give you a constantly updating output showing all the processes runnin
 	Swap: 67108856k total,        0k used, 67108856k free,   294484k cached
 	
 	   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND                                                      
-	 95102 ksjo229   20   0  139m  42m  916 R 100.0  0.1 400:09.13 bpp bpp6.ctl                                                 
-	 97358 ksjo229   20   0 15360 1552  960 R  0.3  0.0   0:00.11 top                                                           
+	 95102 user001   20   0  139m  42m  916 R 100.0  0.1 400:09.13 bpp bpp6.ctl                                                 
+	 97358 user001   20   0 15360 1552  960 R  0.3  0.0   0:00.11 top                                                           
 	     1 root      20   0 19404 1564 1256 S  0.0  0.0   0:01.96 /sbin/init                                                    
 	     2 root      20   0     0    0    0 S  0.0  0.0   0:02.04 [kthreadd]                                                    
 	     3 root      RT   0     0    0    0 S  0.0  0.0   0:00.03 [migration/0]  
@@ -67,4 +67,4 @@ bpp bpp1.b02.ctl > log.b02.txt &
 wait
 ```
 
-Remember, there are only 16 threads available on the standard computing nodes so do not list more than 16 serial jobs. You'll also need to take into account how much memory the each job uses, which you can check in `top`. In the bpp example above, one bpp job is using 0.1% of the memory, so it's fine to add 16 jobs. But if one job used 80% of the memory, then you shouldn't run it as a serial job.
+Remember, there are only 16 threads available on the standard computing nodes so do not list more than 16 serial jobs. You'll also need to take into account how much memory the each job uses, which you can check in `top`. In the `bpp` example above, one `bpp` job is using 0.1% of the memory, so it's fine to add 16 jobs. But if one job used 80% of the memory, then you shouldn't run it as a serial job.
