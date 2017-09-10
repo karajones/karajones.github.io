@@ -22,15 +22,17 @@ Want to know what folders, files, etc. are in the current directory? To list eve
 ```
 ls
 ```
-  
+
 Which will output something like this:
 ```
 packages      stuff.fastq.gz      slurm-574242.out
 ```
+
 In this example, only `packages` is a directory. If you want to navigate into the `packages` directory, then type:
 ```
 cd packages
 ```
+
 > Tip: Not good at typing and/or spelling? No problem! Just start typing `cd p` and then hit the `tab` key. If there is only one item that starts with a `p`, then the rest of the name will fill in automatically. If there are other items in the directory that start with a `p`, then the computer will make an unhappy noise or flash at you and then not do anything. If you insist on repeatedly hitting the tab key after that then it will give you a list of all the other files that start with `p`. For example:
 > 	`packages/     pyrad.sh`
 > You can type the first two letters `cd pa` and press `tab` and it will fill in the word `packages`. By the way this works for all the commands, not just `cd`.
