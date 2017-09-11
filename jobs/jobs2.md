@@ -102,7 +102,7 @@ Anything you add to the file should be added after the last line. Press `i` to m
 module load gcc/4.9.1
 ```
 
-> :bangbang: Warning: Do not alter anything else in the file unless you really know what you’re doing!
+> Warning: Do not alter anything else in the file unless you really know what you’re doing!
 
 Now your file should look like this:
 ```
