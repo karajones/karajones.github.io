@@ -1,4 +1,4 @@
-## Moving your stuff around
+## Moving stuff around
 
 > Summary:
 > 1. Use `mv` to move a file or directory to a new location
