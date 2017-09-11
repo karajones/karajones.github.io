@@ -1,10 +1,9 @@
 ## Navigating around
-
-> Summary:
-> 1. There are two login nodes
-> 2. Use `pwd` to find out where you are
-> 3. Use `ls` to list the contents of a directory
-> 4. Use `cd` to navigate to a different directory
+Summary:
+1. There are two login nodes
+2. Use `pwd` to find out where you are
+3. Use `ls` to list the contents of a directory
+4. Use `cd` to navigate to a different directory
 
 ### Where am I?
 
