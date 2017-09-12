@@ -244,7 +244,10 @@ blockquote {
   border: 1px solid transparent;
   border-radius: $panel-border-radius;
   @include box-shadow(0 1px 1px rgba(0,0,0,.05));
-
+  padding: $panel-body-padding;
+  @include clearfix;
+  @include panel-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+  
   p,
   ul,
   ol {
