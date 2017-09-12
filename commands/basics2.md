@@ -10,7 +10,7 @@
 
 ### Usage examples
 
-**Move between directories**
+#### Move between directories
 
 | code | function |
 |------|-----|
@@ -19,7 +19,7 @@
 | `cd ../..` | move back two directories |
 | `cd` or `cd ~/` | move to the home directory |
 
-**List directory contents**
+#### List directory contents
 
 | code | function |
 |------|-----|
