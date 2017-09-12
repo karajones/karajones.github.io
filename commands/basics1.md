@@ -43,6 +43,6 @@
 
 | code | function |
 |------|-----|
-| `less filename.gz \| head` | show first 10 lines of compressed file |
-| `less filename.gz \| head -30` | show first 30 lines of compressed file |
-| `less filename.gz \| head \| cut -c 1-20` | show first 20 characters of the first 10 lines of compressed file |
+| `less filename.gz | head` | show first 10 lines of compressed file |
+| `less filename.gz | head -30` | show first 30 lines of compressed file |
+| `less filename.gz | head | cut -c 1-20` | show first 20 characters of the first 10 lines of compressed file |
