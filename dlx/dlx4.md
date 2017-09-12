@@ -1,13 +1,15 @@
 ## Moving stuff around
 
-> Summary:
-> 1. Use `mv` to move a file or directory to a new location
-> 2. Use `mv` to rename a file or directory
-> 2. Use `cp` to make a copy of a file in a new location
-> 3. Use `cp -r` to make a copy of a directory
-> 4. Use `mkdir` to make a new directory
-> 5. Use `rm` to remove a file, `rm -r` to remove a directory, and `rmdir` to remove an empty directory
+**Summary:**
 
+1. Use `mv` to move a file or directory to a new location
+2. Use `mv` to rename a file or directory
+3. Use `cp` to make a copy of a file in a new location
+4. Use `cp -r` to make a copy of a directory
+5. Use `mkdir` to make a new directory
+6. Use `rm` to remove a file, `rm -r` to remove a directory, and `rmdir` to remove an empty directory
+
+----
 
 Now that you have some files uploaded to DLX, you might want to move them around and organize them. The four basic commands you’ll need are `mv` (move), `cp` (copy), `mkdir` (make directory), and `rm` (remove). 
 
