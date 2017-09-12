@@ -1,10 +1,11 @@
 ## Uncompressing and compressing files
 
-> Summary:
-> 1. Upzip files using `unzip` (.zip), `gunzip` (.gz), and bunzip2 (.bz2)
-> 2. Uncompress directories using `tar xf` (.tar), `tar xzf` (.tar.gz & .tgz), `tar xjf` (.tar.bz2)
-> 3. Compress files using `gzip`
-> 4. Compress directories using `tar cf` (.tar), `tar zcf` (.tar.gz), or `tar jcf` (.tar.bz2)
+**Summary:**
+
+1. Upzip files using `unzip` (.zip), `gunzip` (.gz), and bunzip2 (.bz2)
+2. Uncompress directories using `tar xf` (.tar), `tar xzf` (.tar.gz & .tgz), `tar xjf` (.tar.bz2)
+3. Compress files using `gzip`
+4. Compress directories using `tar cf` (.tar), `tar zcf` (.tar.gz), or `tar jcf` (.tar.bz2)
 
 If you’ve uploaded a large file to DLX then the file was probably compressed (aka “zipped”). You might want to uncompress it. There are a frustratingly large number of compression formats and they each use a slightly different command. This section should cover most of the formats you’ll encounter.
 
@@ -73,6 +74,7 @@ tar xf stuff.tar
 > Note: You can add the verbose option to any of the tarball uncompression commands, such as `xjvf` for `.bz2` and `xvf` for `.tar`.
 
 ### Compressing files
+
 This one is a bit easier. You just write the command for how you want to compress the file and then the filename. *These commands will not work with directories, only files!*
 
 > :heavy_exclamation_mark: Caution: Unlike with uncompressing files, you will be compressing the original file and the uncompressed file will no longer exist. You will just have the compressed file. Though you can always uncompress it again, so it's not that big of a deal.
@@ -93,6 +95,7 @@ zip test.zip *.txt
 ```
 
 ### Compressing directories
+
 This is a little more complicated because directories should be compressed into tarballs. The commands are very similar to the uncompression commands for `tar` above, but instead of an `x` (extract), use a `c` (compress). When compressing directories, the original directory and the compressed directory will both be preserved.
 
 > Note: You must put the final name of the compressed directory *before* the name of the directory you are compressing. This is a bit counterintuitive.
@@ -112,8 +115,4 @@ Compress the directory `awesome` into a `bzipped` tarball:
 tar jcf awesome.tar.bz2 awesome
 ```
 
-> :heavy_exclamation_mark: Caution: The compression commands will let you name the compressed tarball whatever you want, even if it is incorrect. For instance, you could name a `gzipped` tarball `awesome.tar.bz2` and you will not get any errors. However, if you do this then you might have trouble figuring out how to uncompress the file later!
-
-
-
-[\< Moving your stuff around](moving.html)   [Looking at your stuff \>](looking.html)
+> **Caution:** The compression commands will let you name the compressed tarball whatever you want, even if it is incorrect. For instance, you could name a `gzipped` tarball `awesome.tar.bz2` and you will not get any errors. However, if you do this then you might have trouble figuring out how to uncompress the file later!
