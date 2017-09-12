@@ -73,10 +73,8 @@ Download the `more_things` directory to my `Desktop`:
 scp -r user001@dlx.uky.edu:more_things ~/Desktop/.
 ```
 
-All the scenarios outlined for uploading are the same as downloading. Just remember the order:
+> All the scenarios outlined for uploading are the same as downloading. Just remember the order:
 
-`scp` `file_i_want_to_move` `where_i_want_to_move_it`
+> `scp` `file_i_want_to_move` `where_i_want_to_move_it`
 
-`scp` `-r` `directory_i_want_to_move` `where_i_want_to_move_it`
-
-[\< Navigating around](navigating.html)   [Moving your stuff around \>](moving.html)
+> `scp` `-r` `directory_i_want_to_move` `where_i_want_to_move_it`
