@@ -59,7 +59,7 @@ Finally, you’ll want to actually use the program. You can do this one of two w
 
 Use the entire prefix path to the program when you want to use it. Just because you "installed" a program, doesn't mean that a computer on the cluster can find the program. You have to explicitly declare the entire path to the executables for the program.
 
-> :heavy_exclamation_mark: Caution: The executables for programs are usually *not* stored in the main part of the program's directory. For example, the executables for ALLPATHS are not stored in `~/programs/ALLPATHS`, they are stored in `~/programs/ALLPATHS/bin`. You can find out where the executables are stored by looking at the user manual for the program.
+> **Caution:** The executables for programs are usually *not* stored in the main part of the program's directory. For example, the executables for ALLPATHS are not stored in `~/programs/ALLPATHS`, they are stored in `~/programs/ALLPATHS/bin`. You can find out where the executables are stored by looking at the user manual for the program.
 
 For example, ALLPATHS has an executable called `PrepareAllPathsInputs.pl`, so every time you want to use that command, you have to type:
 ```
