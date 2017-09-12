@@ -11,7 +11,7 @@
 
 ### Usage examples
 
-**Head**
+#### Head
 
 | code | function |
 |------|-----|
@@ -20,7 +20,7 @@
 | `head -c 10 filename` | show first 10 characters of file |
 
 
-**Tail**
+#### Tail
 
 | code | function |
 |------|-----|
@@ -29,7 +29,7 @@
 | `tail -c 10 filename` | show last 10 characters of file |
 
 
-**Less**
+#### Less
 
 | code | function |
 |------|-----|
@@ -39,7 +39,7 @@
 | `q` | quit interactive mode |
 
 
-**View contents of compressed files**
+#### View contents of compressed files
 
 | code | function |
 |------|-----|
