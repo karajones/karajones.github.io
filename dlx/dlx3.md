@@ -7,6 +7,7 @@
 3. Download files/directories from DLX using the same commands
 4. You can change the name of a file/directory when you upload/download it
 
+----
 
 ### Uploading from your computer to the DLX
 
