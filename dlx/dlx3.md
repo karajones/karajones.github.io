@@ -1,6 +1,6 @@
 ## Uploading and downloading
 
-**Summary:**
+**Summary**
 
 1. Upload files to the DLX using `scp` (secure copy)
 2. Upload directories using `scp -r` (secure copy, recursive)
