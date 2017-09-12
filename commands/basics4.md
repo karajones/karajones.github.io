@@ -1,6 +1,7 @@
 ## Moving and renaming files or directories
 
 ### Commands
+
 | code | function |
 | ----- | ----- |
 | `mv` | moves a file or to a new location |
@@ -13,14 +14,14 @@
 
 ### Usage examples
 
-**Renaming without moving**
+#### Renaming without moving
 
 | code | function |
 | ----- | ----- |
 | `mv filename new_file_name` | rename file |
 | `cp filename new_file_name` | rename file, leaving old file in place |
 
-**Moving files/directories to a new directory**
+#### Moving files/directories to a new directory
 
 | code | function |
 | ----- | ----- |
@@ -28,7 +29,7 @@
 | `mv filename directory/new_file_name` | move file to new directory and rename it |
 | `mv directory ~/new_directory` | move a directory into new directory |
 
-**Copying files/directories to a new directory**
+#### Copying files/directories to a new directory
 
 | code | function |
 | ----- | ----- |
@@ -36,7 +37,7 @@
 | `cp filename directory/new_file_name` | copy file to directory and rename file |
 | `cp -r directory ~/new_directory` | copy directory to a new directory |
 
-**Removing files/directories**
+#### Removing files/directories
 
 | code | function |
 | ----- | ----- |
