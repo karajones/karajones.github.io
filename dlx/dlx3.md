@@ -1,10 +1,11 @@
 ## Uploading and downloading
 
-> Summary:
-> 1. Upload files to the DLX using `scp` (secure copy)
-> 2. Upload directories using `scp -r` (secure copy, recursive)
-> 3. Download files/directories from DLX using the same commands
-> 4. You can change the name of a file/directory when you upload/download it
+**Summary:**
+
+1. Upload files to the DLX using `scp` (secure copy)
+2. Upload directories using `scp -r` (secure copy, recursive)
+3. Download files/directories from DLX using the same commands
+4. You can change the name of a file/directory when you upload/download it
 
 
 ### Uploading from your computer to the DLX
