@@ -1,6 +1,6 @@
 ## Moving stuff around
 
-**Summary:**
+**Summary**
 
 1. Use `mv` to move a file or directory to a new location
 2. Use `mv` to rename a file or directory
