@@ -41,14 +41,14 @@ Finally, the last line tells the computer to run the program `pyrad` with the pa
 
 ### Writing your own shell script
 
-**Bash declaration**
+#### Bash declaration
 
 This one is easy. Every bash script needs to start with this line:
 ```
 #!/bin/bash
 ```
 
-**SBATCH commands**
+#### SBATCH commands
 
 These fall into two categories: necessary and optional. The only necessary command is the number of processor cores `-n`. It is recommended that along with `-n`, you also specify the time it will take for the job to complete `-t`. However, unless you’ve run the same job before then it is unlikely you will know how long your job will take to finish. 
 
@@ -73,6 +73,7 @@ The partitions and their specifications for job length and number of cores:
 | Med | up to 7 days | 65 to 511 cores|
 | Long | up to 30 days | 16 to 64 cores |
 | FatComp\* | up to 14 days | 1 to 32 cores |
+
 \* high memory node (512 GB per node vs 64 GB for other nodes)
 
 There are also some specialized partitions:
@@ -102,22 +103,23 @@ This one is pretty simple: it’s just an estimate of how long your job will tak
 
 Try to make your best guess of how long the job will take based on the documentation for the program you are running. Don’t worry if it ends up taking longer than you expected; your job will end when it’s finished, not based on the time you specified. (Unless your job exceeds the maximum job times listed above, in which case it will stop before your job is finished.) If you specify the partition, then you don't need to include the time.
   
-### Other things you can specify in your scripts
+**`-J` job name**
 
-`-J` job name
 If you’re running multiple jobs, it might be hard to keep track of them. You can give each job a unique name that will show up in the job queue. Note that only the first 8 characters of your job name will show up when you view the queue, so make the name short.
 ```
 #SBATCH -J job_a_12
 ```
 
-`--mail-type` send email when something happens with the job
+**`--mail-type` send email when something happens with the job**
+
 Tired of checking and rechecking the queue to see if your job is running? Just have the batch scheduler send you an email instead! You can specify it to send you mail just when your job begins (BEGIN), ends (END), or fails (FAIL). Or you can specify that it send you an email when any of those three things happen.
 ```
 #SBATCH --mail-type BEGIN
 ```
 
-`--mail-user` email address
-If you don’t specify an email address, then the batch scheduler will use the address listed in the file `.forward`. (See [getting familiar with your account](#) for more information.) If you want it sent somewhere else, or just to be safe, then specify the email address in your script.
+**`--mail-user` email address**
+
+If you don’t specify an email address, then the batch scheduler will use the address listed in the file `.forward`. (See [Getting familiar with your account](../jobs/jobs1) for more information.) If you want it sent somewhere else, or just to be safe, then specify the email address in your script.
 ```
 #SBATCH --mail-user fake.email@uky.edu
 ```
