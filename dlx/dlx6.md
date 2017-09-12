@@ -1,6 +1,6 @@
 ## Looking at your stuff
 
-**Summary:**
+**Summary**
 
 1. View entire files using `cat`
 2. View the beginning of a file using `head`
