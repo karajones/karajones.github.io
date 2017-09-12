@@ -74,7 +74,7 @@ The partitions and their specifications for job length and number of cores:
 | Long | up to 30 days | 16 to 64 cores |
 | FatComp\* | up to 14 days | 1 to 32 cores |
 
-\* high memory node (512 GB per node vs 64 GB for other nodes)
+\* high memory node (512 GB RAM per node vs 64 GB for other nodes)
 
 There are also some specialized partitions:
 
