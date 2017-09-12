@@ -4,8 +4,6 @@ When one of your jobs is running on a node then you "own" that node. Nobody else
 
 ### How many threads is my job using?
 
-**Log in to the node where the job is running**
-
 First you'll need to figure out what node your job is running on. If you use the command:
 ```
 squeue -u user001
@@ -15,8 +13,6 @@ Then you'll get the output of all the nodes your jobs are assigned to. Find the 
 ```
 ssh cnode001
 ```
-
-**The `top` command**
 
 Now that you're logged into the node, you can check on the job processes that are running using the `top` command:
 ```
