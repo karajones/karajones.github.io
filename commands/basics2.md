@@ -1,6 +1,7 @@
 ## Navigating
 
 ### Commands
+
 | code | function |
 |------|-----|
 | `cd` | move between directories |
