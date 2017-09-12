@@ -25,12 +25,12 @@ Print the contents of `stuff.txt` to the screen:
 cat stuff.txt
 ```
 
-> :beers: Tip: “Help! My file was a lot larger than I thought and a million lines of text are scrolling down my screen!!” If you ever encounter a situation where you need to stop the computer from doing whatever it’s doing then press the `Control` + `C` keys simultaneously. It will stop the process immediately.
+> Tip: “Help! My file was a lot larger than I thought and a million lines of text are scrolling down my screen!!” If you ever encounter a situation where you need to stop the computer from doing whatever it’s doing then press the `Control` + `C` keys simultaneously. It will stop the process immediately.
  
 ### Looking at big files
 As illustrated above, if you `cat` a big file it will probably be unhelpful. Instead, you can look at parts of the file using the commands `head`, `tail`, and `less`.
 
-**Head**
+#### Head
 
 First up is `head`, which lets you look at the beginning of the file.
 
@@ -55,7 +55,7 @@ Print the first 10 characters of `stuff.txt`:
 head -c 10 stuff.txt
 ```
 
-**Tail**
+#### Tail
 
 Next is `tail`, which lets you look at the end of the file.
 
@@ -74,7 +74,7 @@ Print the last 10 characters of `stuff.txt`:
 tail -c 10 stuff.txt
 ```
 
-**Less**
+#### Less
 
 Finally, if you want to see your entire file without printing it to the screen, then you can use `less`. This will create an interactive environment where you can scroll up and down through your file, but you cannot modify it. 
 
@@ -91,7 +91,7 @@ You’re now in interactive mode! There isn’t a set number of lines that `less
 
 If you tried any of the above commands on a compressed file then you’ll have gotten a string of gibberish printed to your screen. Not to worry, there’s a way of looking at the contents of a compressed file using `less`.
 
-> :beers: Tip: To combine commands, you send one command to the other using a `|` (pipe). `|` can be typed by pressing `Shift` + `\`.
+> Tip: To combine commands, you send one command to the other using a `|` (pipe). `|` can be typed by pressing `Shift` + `\`.
 
 Print the first 10 lines of `stuff.txt.gz`:
 ```
