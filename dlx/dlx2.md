@@ -78,5 +78,3 @@ Move from any directory anywhere to `packages`:
 cd ~/packages
 ```
 > Note: `~/` designates your home directory, so you can always use it to navigate to your home directory or as the base of a path to files in your home directory. `~/` is equivalent to `/home/user001`. You can use either one.
-
-[\< Logging in](login.html)   [Uploading and downloading \>](uploading.html)
