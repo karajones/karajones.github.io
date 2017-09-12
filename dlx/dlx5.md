@@ -1,6 +1,6 @@
 ## Uncompressing and compressing files
 
-**Summary:**
+**Summary**
 
 1. Upzip files using `unzip` (.zip), `gunzip` (.gz), and bunzip2 (.bz2)
 2. Uncompress directories using `tar xf` (.tar), `tar xzf` (.tar.gz & .tgz), `tar xjf` (.tar.bz2)
