@@ -7,7 +7,7 @@
 | `head` | print beginning of file |
 | `tail` | print end of file |
 | `less` | view file interactively |
-| `less \| head` | print beginning of compressed file |
+| `less | head` | print beginning of compressed file |
 
 ### Usage examples
 
