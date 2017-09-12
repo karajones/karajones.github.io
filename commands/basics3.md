@@ -13,7 +13,7 @@
 
 > Note: the `.` in these examples must be included or an error will occur.
 
-**Uploading to DLX**
+#### Uploading to DLX
 
 | code | function |
 | ----- | ----- |
@@ -22,7 +22,7 @@
 | `scp -r directory userid@dlx.uky.edu:.` | upload a directory to DLX |
 | `scp filename userid@dlx.uky.edu:new_filename` | upload a file to DLX and rename it |
 
-**Downloading from DLX**
+#### Downloading from DLX
 
 | code | function |
 | ----- | ----- |
