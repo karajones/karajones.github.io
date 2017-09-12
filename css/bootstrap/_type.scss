@@ -241,9 +241,8 @@ abbr[data-original-title] {
 blockquote {
   padding: ( $line-height-computed / 2 );
   margin: 0 0 $line-height-computed;
-  font-size: 12px;
-  border-left: 3px solid #000; 
-  border: 1px solid $blockquote-border-color;
+  font-size: 14px;
+  border: 3px 1px 1px 1px solid $blockquote-border-color;
 
   p,
   ul,
