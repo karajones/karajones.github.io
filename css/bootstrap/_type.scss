@@ -239,9 +239,9 @@ abbr[data-original-title] {
 
 // Blockquotes
 blockquote {
-  padding: $line-height-computed;
+  padding: ( $line-height-computed / 2 );
   margin: 0 0 $line-height-computed;
-  font-size: $blockquote-font-size;
+  font-size: 12px;
   border-left: 3px solid #000; 
   border: 1px solid $blockquote-border-color;
 
