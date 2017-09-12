@@ -7,6 +7,8 @@
 3. Compress files using `gzip`
 4. Compress directories using `tar cf` (.tar), `tar zcf` (.tar.gz), or `tar jcf` (.tar.bz2)
 
+----
+
 If you’ve uploaded a large file to DLX then the file was probably compressed (aka “zipped”). You might want to uncompress it. There are a frustratingly large number of compression formats and they each use a slightly different command. This section should cover most of the formats you’ll encounter.
 
 > In some cases you probably don’t need to uncompress the file to use it. For example, large next-gen sequencing files will often come in a compressed `fq.gz` format, but you can usually do anything you need with the file without uncompressing it. That includes viewing the contents. See the [Looking at your stuff](looking.html) section for tips.
