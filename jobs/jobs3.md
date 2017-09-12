@@ -26,14 +26,14 @@ If you don't already have one, create a directory where you can organize your pr
 mkdir programs
 ```
 
-Next, upload the ALLPATHS package into `programs` and uncompress it. Then `cd` into the uncompressed ALLPATHS directory. (I’m going to assume you know how to do those steps on your own by now. If not, check out [uncompressing and compressing files](#))
+Next, upload the ALLPATHS package into `programs` and uncompress it. Then `cd` into the uncompressed ALLPATHS directory. (I’m going to assume you know how to do those steps on your own by now. If not, check out [Uncompressing and compressing files](../dlx/dlx5))
 
 Now that you are in the ALLPATHS directory, you can carry out the installation. During the `./configure` step, you *must* include a prefix to tell the program where you want to install it. I suggest you install it in the original ALLPATHS directory.
 ```
 ./configure --prefix=~/programs/ALLPATHS
 ```
 
-> :heavy_exclamation_mark: Warning: Let me reiterate that you *must* include a prefix. Also, remember what that prefix was because you’ll need it later!
+> **Warning:** Let me reiterate that you *must* include a prefix. Also, remember what that prefix was because you’ll need it later!
 
 Once that part is finished, you can `make` and `make install` the program:
 ```
@@ -52,9 +52,10 @@ You may encounter errors during the installation process. Many errors can be ign
 
 
 ### Test the installation
+
 Finally, you’ll want to actually use the program. You can do this one of two ways.
 
-**OPTION 1: Use the full path**
+#### OPTION 1: Use the full path
 
 Use the entire prefix path to the program when you want to use it. Just because you "installed" a program, doesn't mean that a computer on the cluster can find the program. You have to explicitly declare the entire path to the executables for the program.
 
@@ -69,7 +70,7 @@ With `...` representing all the other stuff you have to add to make the command 
 
 ---- 
 
-**OPTION 2: Add the path to your `.bash_profile`**
+#### OPTION 2: Add the path to your `.bash_profile`
 
 If you add the path of the program to your `.bash_profile`, you can call the program’s commands from *anywhere*. No more remembering paths. No more long paths with major typo potential. There are two easy steps:
 
