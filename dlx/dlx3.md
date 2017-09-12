@@ -74,7 +74,5 @@ scp -r user001@dlx.uky.edu:more_things ~/Desktop/.
 ```
 
 > All the scenarios outlined for uploading are the same as downloading. Just remember the order:
-
 > `scp` `file_i_want_to_move` `where_i_want_to_move_it`
-
 > `scp` `-r` `directory_i_want_to_move` `where_i_want_to_move_it`
