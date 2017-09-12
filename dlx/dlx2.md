@@ -1,6 +1,6 @@
 ## Navigating around
 
-**Summary:**
+**Summary**
 
 1. There are two login nodes
 2. Use `pwd` to find out where you are
