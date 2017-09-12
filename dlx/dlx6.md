@@ -1,11 +1,14 @@
 ## Looking at your stuff
 
-> Summary
-> 1. View entire files using `cat`
-> 2. View the beginning of a file using `head`
-> 3. View the end of a file using `tail`
-> 4. Scroll through a file using `less`
-> 5. View the contents of compressed files using `less filename |` and `head` or `tail`
+**Summary:**
+
+1. View entire files using `cat`
+2. View the beginning of a file using `head`
+3. View the end of a file using `tail`
+4. Scroll through a file using `less`
+5. View the contents of compressed files using `less filename |` and `head` or `tail`
+
+----
 
 You’ve already learned about having a peek into a directory using `ls`, but what about looking into your files? How you approach this is determined by: 
 1. what you want to know about your file
@@ -15,7 +18,7 @@ You’ve already learned about having a peek into a directory using `ls`, but wh
 ### Looking at small files
 If you *know* that your file is small, then you can use the `cat` (concatenate) command. It will list the entire contents of the file on the screen.
 
-> Note: Why are we using a concatenate command to look at a file? I don’t know, but that’s what the command does. It can also actually concatenate, so have a look at [Modifying files](modifying.html) if you’re interested in that function.
+> Note: Why are we using a concatenate command to look at a file? I don’t know, but that’s what the command does. It can also actually concatenate.
 
 Print the contents of `stuff.txt` to the screen:
 ```
@@ -105,7 +108,7 @@ Print the last 10 lines of `stuff.txt.gz`:
 less stuff.txt.gz | tail
 ```
 
-> :heavy_exclamation_mark: Caution: I would not recommend using the tail command on a large compressed file as it would take forever to return a result.
+> **Caution:** I would not recommend using the tail command on a large compressed file as it would take forever to return a result.
 
 The next one is a bit more complicated. Say you want to look at the beginning of your DNA sequences, not the whole line. You can cut the line down to show the first 20 characters so it neatly fits on your screen and is easier to look at.
 
@@ -141,5 +144,3 @@ CG<F11<1<DFC?1<CFH?G
 @HWI-ST876:512:HCK2T
 CATGCGCCGCTCTGTTTTCT
 ```
-
-[\< Uncompressing and compressing files](uncompressing.html)   [Searching through a file \>](searching.html)
