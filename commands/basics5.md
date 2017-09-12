@@ -2,7 +2,7 @@
 
 ### Commands
 
-**Uncompress files**
+#### Uncompress files
 
 | code | function |
 | ----- | ----- |
@@ -10,7 +10,7 @@
 | `gunzip filename.gz` | unzip .gz files |
 | `bunzip2 filename.bz2` | unzip .bz2 files |
 
-**Uncompress tarballs (directories)**
+#### Uncompress tarballs (directories)
 
 > Note: You may see the commands below written with a flag `-` (e.g. `tar -xvf`), but the commands work with or without a flag.
 
@@ -20,7 +20,7 @@
 | `tar xjf filename.tar.bz2` | uncompress .tar.bz2 directories |
 | `tar xf filename.tar` | uncompress .tar directories |
 
-**Compress files**
+#### Compress files
 
 > Note: When compressing files and directories, the name you want for the compressed file should come _before_ the name of the file to be compressed (see below). Always include the extension in the new filename otherwise you will not know what format it has been compressed into.
 
@@ -29,7 +29,7 @@
 | `gzip filename.gz file_to_be_compressed` | gzip file into .gz |
 | `zip filename.zip file_to_be_compressed` | zip file into .zip |
 
-**Compress directories**
+#### Compress directories
 
 | code | function |
 | ----- | ----- |
@@ -39,14 +39,14 @@
 
 ### Usage examples
 
-**Uncompressing tarballs (directories)**
+#### Uncompressing tarballs (directories)
 
 | code | function |
 | ----- | ----- |
 | `tar xzvf directory.tar.gz` | verbose option; list all files being uncompressed on screen |
 | `tar xzf directory.tar.gz` | non-verbose option; no feedback on screen |
 
-**Compressing files**
+#### Compressing files
 
 | code | function |
 | ----- | ----- |
