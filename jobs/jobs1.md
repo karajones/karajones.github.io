@@ -41,7 +41,7 @@ If you `cat` your `.bash_profile`, it will probably look something like this:
 # User specific environment and startup programs
 ```
 
-The `#` (hash) sign indicates lines with comments that the system does not read. Do NOT change anything in this file above the `# User specific environment` comment. Paths to programs will be place below that comment. See [Installing programs](#) for more details.
+The `#` (hash) sign indicates lines with comments that the system does not read. Do NOT change anything in this file above the `# User specific environment` comment. Paths to programs will be place below that comment. See [Installing programs](../jobs/jobs3) for more details.
 
 ### .bashrc
 
@@ -57,5 +57,5 @@ The `#` (hash) sign indicates lines with comments that the system does not read.
 # User specific aliases and functions
 ```
 
-Again, do NOT change anything above the last comment line. Below that line is where you will add any modules you want to load. See [Modules](#) for more information.
+Again, do NOT change anything above the last comment line. Below that line is where you will add any modules you want to load. See [Modules](../jobs/jobs2) for more information.
 
