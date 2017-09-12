@@ -78,7 +78,7 @@ mkdir awesome
 ```
  
 #### Removing files and directories
-> :bangbang: Warning: Removing files and directories is **permanent**. Make sure you are absolutely certain you want to delete the file or directory before you use this command. You will *not* be able to recover your work.
+> **Warning:** Removing files and directories is **permanent**. Make sure you are absolutely certain you want to delete the file or directory before you use this command. You will *not* be able to recover your work.
 
 Remove a file called `things.txt`:
 ```
@@ -94,5 +94,3 @@ I want to remove a directory called `awesome` that has nothing in it:
 ```
 rmdir awesome
 ```
-
-[\<Uploading and downloading](uploading.html)   [Uncompressing and compressing files \>](uncompressing.html)
