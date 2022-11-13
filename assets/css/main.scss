@@ -1,0 +1,47 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes";
+
+html {
+  font-size: 16px; // change to whatever
+
+  @include breakpoint($medium) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 16px; // change to whatever
+  }
+
+  a { color: #3d4144; text-decoration-color: #00B2A9; text-decoration-thickness: 3px;} 
+  a:visited { color: #3d4144; text-decoration-color: #BEC3C6; text-decoration-thickness: 3px;}
+  a:hover { color: #00B2A9; outline: 0; }
+
+.author__avatar img {
+     max-width: 250px; border-radius: 0%;
+
+    @include breakpoint($large) {
+      padding: 0px;
+      border: 0px solid $border-color; }
+
+    @include breakpoint($medium) {
+    padding-right: 10px;
+    border: 0px solid $border-color; }
+
+    @include breakpoint($x-large) {
+    padding: 0px;
+    border: 0px solid $border-color; }
+}
+
+
+}
+

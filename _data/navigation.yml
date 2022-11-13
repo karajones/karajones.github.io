@@ -1,0 +1,9 @@
+main:
+  - title: "Tutorials"
+    url: /categories/
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /cv/
+  - title: "Blog: Unloved Creatures"
+    url: http://unlovedcreatures.com
