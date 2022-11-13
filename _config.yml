@@ -17,6 +17,8 @@ title: Kara Jones
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Personal page for Kara Jones
+url: karajones.github.io
+baseurl: ""
 repository: karajones/karajones.github.io
 #twitter_username: username
 github_username: karajones
