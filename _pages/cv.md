@@ -3,21 +3,22 @@ permalink: /cv/
 title: "CV"
 ---
 
-My current focus is on phylogenetics, population genetics, phylogeography and associated fields. That all sounds fancy, but the questions I've been focusing on in my research are ultimately pretty basic: Where do things live? Why do they live there? And where are they going to be able to live in the future? 
+My current focus is on phylogenetics, population genetics, phylogeography, and associated fields. That all sounds fancy, but the questions I've been focusing on in my research are ultimately pretty basic: Where do things live? Why do they live there? And where are they going to be able to live in the future? 
 
 ## Education
 
-**Biology, PhD, University of Kentucky (Expected Spring 2023 - Hooray future me!)** \\
-Advisor: Dr. Jeramiah Smith
+**Biology, PhD, University of Kentucky (2023)** \
+Advisor: Dr. Jeramiah Smith \
+Dissertation: Placing the evolutionary history of *Desmognathus* salamanders in context: a phylogeographic approach
 
-**Environmental Science & Policy, MS, Conservation focus, George Mason University (2015)** \\
-Advisor: Dr. Larry Rockwood \\
+**Environmental Science & Policy, MS, Conservation focus, George Mason University (2015)** \
+Advisor: Dr. Larry Rockwood \
 Thesis: Microhabitat selection in the Eastern worm snake (*Carphophis amoenus*) and a survey of the amphibians and reptiles of Huntley Meadows Park, Alexandria, Virginia
 
-**Biology, BS, George Mason University (2013)** \\
+**Biology, BS, George Mason University (2013)** \
 *Summa Cum Laude*, Undergraduate Research Scholar
 
-**Science, BS, Northern Virginia Community College (2011)** \\
+**Science, BS, Northern Virginia Community College (2011)** \
 Yes, you read that right: I have a Bachelor of Science in *Science!*
 
 ## Teaching & Research Experience
@@ -59,6 +60,7 @@ Jones, KS. 2013. Habitat Selection in the Eastern Worm Snake. College of Science
 
 ## Fellowships & Awards
 
+- Nominated: Outstanding Teaching Assistant Award (2023, results not announced yet)
 - Appalachian Highlands Science Learning Center Research Program Grant (2019)
 - Morgan Graduate Fellowship (2018)
 - Kentucky Academy of Science Marcia Athey Grant (2017)
