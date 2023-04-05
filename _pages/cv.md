@@ -18,8 +18,8 @@ Thesis: Microhabitat selection in the Eastern worm snake (*Carphophis amoenus*) 
 **Biology, BS, George Mason University (2013)** \
 *Summa Cum Laude*, Undergraduate Research Scholar
 
-**Science, BS, Northern Virginia Community College (2011)** \
-Yes, you read that right: I have a Bachelor of Science in *Science!*
+**Science, AS, Northern Virginia Community College (2011)** \
+
 
 ## Teaching & Research Experience
 
