@@ -84,25 +84,25 @@ Jones, KS. 2013. Habitat Selection in the Eastern Worm Snake. College of Science
 
 Here are a few of the things I did before I figured out getting a college degree was a good idea. (It took me a while.) Is any of this relevant to my current career? Hmmm, maybe? Is it relevant to who I am and how I view the world? Probably.
 
-**2005: Administrative Assistant, Commonwealth Scientific and Industrial Research Organisation, Brisbane, Australia**  \\
+**2005: Administrative Assistant, Commonwealth Scientific and Industrial Research Organisation, Brisbane, Australia**  \
 Updated website and created project management system for the mining department
 
-**2005: Personal Assistant to the Director, Momtaz Islamic Art Gallery, London, United Kingdom** \\
+**2005: Personal Assistant to the Director, Momtaz Islamic Art Gallery, London, United Kingdom** \
 Designed and implementing new product and contact database
 
-**2004: Adventurer (i.e., I went backpacking!)**  \\
+**2004: Adventurer (i.e., I went backpacking!)**  \
 Mostly Europe (so maybe not *that* adventurous?)
 
-**2002-2003: Freelance Graphic/Web Design Artist**  \\
+**2002-2003: Freelance Graphic/Web Design Artist**  \
 Designed websites and advertisements for small businesses
 
-**2002: Resident Associate Volunteer, Smithsonian Natural History Museum, Washington, DC**  \\
+**2002: Resident Associate Volunteer, Smithsonian Natural History Museum, Washington, DC**  \
 Maintained database of research articles for the Wilson Copepod Library 
 
-**2000-2001: Grocery Department Head Manager, Takoma Park Cooperative, Takoma Park, MD**  \\
+**2000-2001: Grocery Department Head Manager, Takoma Park Cooperative, Takoma Park, MD**  \
 Oversaw operations of largest department in store with over $4 million sales per year (and everything that entails)
 
-**1998-2000: Buying Manager, Arlington Cooperative Organization, Arlington, VA**  \\
+**1998-2000: Buying Manager, Arlington Cooperative Organization, Arlington, VA**  \
 Started as a stocker and worked up to overseeing all store buyers
 
 
