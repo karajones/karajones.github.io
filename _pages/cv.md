@@ -18,7 +18,7 @@ Thesis: Microhabitat selection in the Eastern worm snake (*Carphophis amoenus*) 
 **Biology, BS, George Mason University (2013)** \
 *Summa Cum Laude*, Undergraduate Research Scholar
 
-**Science, AS, Northern Virginia Community College (2011)** \
+**Science, AS, Northern Virginia Community College (2011)** 
 
 
 ## Teaching & Research Experience
