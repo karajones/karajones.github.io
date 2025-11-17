@@ -3,11 +3,11 @@ permalink: /publications/
 title: "Publications"
 ---
 
-1.	Fitzpatrick, BM, **Jones, KS**, Aunins, AW, Eackles, MS, and DC Kazyak. 2025. Development of genomic markers for monitoring and research on plethodontid salamanders. In review.
+1.	Fitzpatrick, BM, **Jones, KS**, Aunins, AW, Eackles, MS, and DC Kazyak. 2025. Development of genomic markers for monitoring and research on plethodontid salamanders. PLoS One 20(11): e0336236. [https://doi.org/10.1371/journal.pone.0336236](https://doi.org/10.1371/journal.pone.0336236)
 
-2.	**Jones KS**, Aunins, AW, Young, CC, Johnson, RL, and CL Morrison. 2025. Population genetics of the endangered narrowly endemic Island Marble butterfly (Euchloe ausonides insulanus). In review. [BioRxiv](https://doi.org/10.1101/2025.05.08.652852)
+2.	**Jones KS**, Aunins, AW, Young, CC, Johnson, RL, and CL Morrison. 2025. Population genetics of the endangered narrowly endemic Island Marble butterfly (Euchloe ausonides insulanus). Accepted. Conservation Genetics. [BioRxiv](https://doi.org/10.1101/2025.05.08.652852)
 
-3.	**Jones, KS**, Pilliod, DS, and AW Aunins. 2025. A methodological comparison of eDNA derived from flowers and DNA derived from bulk samples of insects. Molecular Ecology. Accepted.
+3.	**Jones, KS**, Pilliod, DS, and AW Aunins. 2025. A methodological comparison of eDNA derived from flowers and DNA derived from bulk samples of insects. Molecular Ecology 34(14): e70003. [https://doi.org/10.1111/mec.70003](https://doi.org/10.1111/mec.70003)
 
 4.	**Jones KS**, Aunins, AW, Eackles, MS, Young, CC, and Johnson, RL, and CL Morrison. 2025. Conservation genetics and genomics of the narrowly endemic island marble butterfly: Assessing population structure, facilitating supportive breeding, and identifying adaptive potential. Cooperator publication for the US Fish and Wildlife Service.
 
