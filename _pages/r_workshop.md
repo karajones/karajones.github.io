@@ -8,8 +8,10 @@ kramdown:
 
 Coming soon!
 
+<div class="toc" markdown="1">
 * TOC
 {:toc}
+</div>
 
 
 # Slideshows
