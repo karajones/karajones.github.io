@@ -1,4 +1,6 @@
 main:
+  - title: "R Workshop 2026"
+    url: /r_workshop/
   - title: "Publications"
     url: /publications/
   - title: "CV"
