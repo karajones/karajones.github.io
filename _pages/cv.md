@@ -25,7 +25,13 @@ Publication list available [here](karajones.github.com/publications.md)
 
 ## Research Experience
 
-#### 2023-present: Geneticist, USGS, Eastern Ecological Science Center
+#### 2025-present: Postdoctoral Associate, Cornell University
+**Current projects:**
+- Developing an epigenetic clock model for aging Atlantic sturgeon using whole genome enzymatic methylation sequencing (EM-seq) of fin clip samples from marked and recaptured individuals
+- Comparing metabarcoding with multiple markers and metagenomics for detecting zooplankton in the Hudson River
+- Assessing the utility of Nanopore sequencing for real-time detection of harmful algal blooms
+  
+#### 2023-2025: Geneticist, USGS, Eastern Ecological Science Center
 - Developed new R and Bash-scripted bioinformatics pipeline for curating reference sequence databases and analyzing environmental DNA metabarcoding data
 - Led data analysis efforts for multiple projects, including eDNA metabarcoding for freshwater, marine, and terrestrial applications; population genetic analyses using ddRAD, microsatellites, and mitochondrial genomes; phylogenetic analyses using ultra-conserved elements (UCEs) for studying species divergence; and microbiome community composition analysis of fish with viral infections
 - Co-PI for >$70,000 in new grant funding in 2025
