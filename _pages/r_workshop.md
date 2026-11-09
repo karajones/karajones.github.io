@@ -22,13 +22,15 @@ toc_sticky: true
 
 ## What you'll need
 
-At minimum, a laptop with R installed and the following packages:
-+ [ggplot2](https://ggplot2.tidyverse.org/) version 4.0.0 or above
-+ [dplyr](https://dplyr.tidyverse.org/)
-+ [scales](https://scales.r-lib.org/)
-+ Or you install all of the above and additional useful packages by installing the full [tidyverse suite](https://tidyverse.org/packages/)
+At minimum:
++ a laptop with [RStudio](https://posit.co/products/open-source/rstudio) installed (or your favorite software for editing R code and viewing output)
++ The following packages from the [tidyverse suite](https://tidyverse.org/packages/):
+  + [ggplot2](https://ggplot2.tidyverse.org/) version 4.0.0 or above
+  + [dplyr](https://dplyr.tidyverse.org/)
+  + [scales](https://scales.r-lib.org/)
+  + (or just install the [tidyverse suite](https://tidyverse.org/packages/) rather than those individual packages)
 
-The following packages will also be used to create the final example plots:
+The following extension packages will also be used to create the final example plots:
 + [patchwork](https://patchwork.data-imaginist.com/) (combining multiple plots into a single figure)
 + [ggtext](https://wilkelab.org/ggtext/) (using html/markdown to style text)
 + [showtext](https://github.com/yixuan/showtext) (displaying special fonts)
