@@ -4,12 +4,15 @@ title: "R Workshop"
 markdown: kramdown
 kramdown:
   parse_block_html: true
+layout: single
+toc: true
+toc_label: "Contents"
+toc_icon: "list"
+toc_sticky: true
 ---
 
-<div class="toc" markdown="1">
 * TOC
 {:toc}
-</div>
 
 **Creating publication-ready figures using ggplot2 and extensions**
 
