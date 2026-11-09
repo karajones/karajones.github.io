@@ -92,6 +92,21 @@ Below are links for other resources that you might find useful. Note: I have not
 + [ggplot2 styling tutorial](https://tidyverse.org/blog/2025/10/ggplot2-styling/): an official tutorial on theming, from the makers of gglot2
 + [data visualization cheat sheets](https://rstudio.github.io/cheatsheets/html/data-visualization.html): downloadable PDF of ggplot2 functions
 + [ggplot2 4.0.0 updates](https://tidyverse.org/blog/2025/09/ggplot2-4-0-0/): blog post on new features in ggplot2 4.0.0+
++ [Awesome ggplot2](https://github.com/erikgahner/awesome-ggplot2): an **extensive** list of packages, tutorials, and other resources
++ [How does size work in R?](https://fishr-core-team.github.io/fishR/blog/posts/2023-4-4_Size/): a deep dive into how size is controlled in themes
++ [TidyTuesday](https://github.com/rfordatascience/tidytuesday): lots of small data sets to practice data visualization
++ [Tutorial on custom themes](https://www.michaelc-m.com/ggplot-extensions-and-custom-themes/): using ggtext and ggh4x
++ [The Art of Data Visualization with ggplot2](https://nrennie.rbind.io/art-of-viz/): lots of examples on how to styling plots
++ [The ggplot2 handbook](https://r-statistics.co/tutorials/ggplot2.html): free ggplot2 course
++ [R graphics cookbook](https://r-graphics.org/): a practical guide that provides more than 150 recipes to help you generate high-quality graphs quickly
++ [Tufte in R](http://motioninsocial.com/tufte/): how to create simple, clean plots in the style of Edward Tufte
+
+
+### Data visualization and accessibility
++ [Data visualization: A Practical Introduction](https://github.com/erikgahner/awesome-ggplot2): an excellent online textbook on the principles of data visualization and how to implement them in R
++ [Colour contrast checker](https://colourcontrast.cc/): check to make sure there is enough contrast between your text and background colors
++ [Viz palette](https://projects.susielu.com/viz-palette): check your color palette to see if it's colorblind friendly and see it will look like on different types of plots
++ [Chroma.js Color Palette Helper](https://www.vis4.net/palettes): use a couple of colors to create a colorblind friendly palette or tweak and existing palette to be more colorblind friendly
 
 ### Palettes and themes
 
