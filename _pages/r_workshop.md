@@ -13,7 +13,7 @@ toc_sticky: true
 
 **Creating publication-ready figures using ggplot2 and extensions**
 
-+ Presenter: Kara Jones
++ Instructor: Kara Jones
 + Date: Thursday, November 12, 2026
 + Time: 9:30-11:30 am
 + Location: Stocking Hall, Room 202, Cornell University
