@@ -40,7 +40,7 @@ If you have trouble installing any of the packages, you can still make plots - t
 
 ## Agenda (draft)
 
-The workshop will be split, wit the first half dedicated to instruction and the second half to hands-on time. During the first half of the workshop, I'll walk you through the topics below.   
+Since the workshop is only two hours, the goal is to give you enough of an introduction into the topic that you'll have a solid starting point for further exploration. The workshop will be split, with the first part dedicated to instruction and the second to hands-on time. During the first part of the workshop, I'll walk you through the topics below.   
 
 **1. ggplot2 basics**
 
@@ -69,8 +69,6 @@ The workshop will be split, wit the first half dedicated to instruction and the 
   + Saving theme elements for reuse as a custom theme
   + Combining multiple plots into one figure
 
-Since the workshop is only two hours, the goal is to give you enough of an introduction into the topic that you'll have a solid starting point for further exploration.
-
 ## Data
 
 We'll be making plots with the [Golem Grad Tortoise Data](https://github.com/rfordatascience/tidytuesday/blob/main/data/2026/2026-03-03/readme.md#golem-grad-tortoise-data) available from TidyTuesday. You do not need to download the data set in advance. It's a small data set and I'll provide code to download and clean the data. The data also doesn't matter that much since what you'll be learning about can be applied to any data set - I just think the tortoises are cute!
@@ -83,9 +81,11 @@ Stay tuned - example code will be up soon. I will walk you through all the code 
 
 I'll post the slide decks here after the workshop.
 
-## Other resources
+## Links to other resources
 
 Below are links for other resources that you might find useful. Note: I have not used all of the packages listed below. (Though I have used many of them!)
+
+### Tutorials and cheat sheets
 
 + [ggplot2 styling tutorial](https://tidyverse.org/blog/2025/10/ggplot2-styling/): an official tutorial on theming, from the makers of gglot2
 + [data visualization cheat sheets](https://rstudio.github.io/cheatsheets/html/data-visualization.html): downloadable PDF of ggplot2 functions
