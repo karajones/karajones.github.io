@@ -51,7 +51,7 @@ The workshop will be split, wit the first half dedicated to instruction and the 
 
 **2. Best practices in data visualization**
   + Presenting data honestly
-  + Choosing the format
+  + Choosing the right format
   + Improving accessibility
   + Removing anything not helpful for telling the story
 
