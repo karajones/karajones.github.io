@@ -1,6 +1,6 @@
 ---
 permalink: /r_workshop/
-title: "R Workshop 2026"
+title: "R Workshop"
 markdown: kramdown
 kramdown:
   parse_block_html: true
@@ -11,7 +11,7 @@ kramdown:
 {:toc}
 </div>
 
-**R Workshop: Creating publication-ready figures using ggplot2 and extensions**
+**Creating publication-ready figures using ggplot2 and extensions**
 
 + Presenter: Kara Jones
 + Date: Thursday, November 12, 2026
