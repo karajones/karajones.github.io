@@ -44,37 +44,4 @@ html {
 
 }
 
-.toc {
-  float: left;
-  width: 220px;
-  margin: 0 1.5em 1em 0;
-  padding: 0.5em 1em;
-  background: #f6f8fa;
-  border-radius: 6px;
-  font-size: 0.9em;
-  position: sticky;
-  top: 1em;
-}
-
-.toc ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.toc ul ul {
-  padding-left: 1em;
-}
-
-@media (min-width: 1300px) {
-  .toc {
-    margin-left: -250px;
-  }
-}
-
-@media (max-width: 700px) {
-  .toc {
-    float: none;
-    width: auto;
-  }
-}
 
