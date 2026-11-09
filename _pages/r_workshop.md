@@ -11,9 +11,6 @@ toc_icon: "list"
 toc_sticky: true
 ---
 
-* TOC
-{:toc}
-
 **Creating publication-ready figures using ggplot2 and extensions**
 
 + Presenter: Kara Jones
