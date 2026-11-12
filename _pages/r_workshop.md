@@ -81,7 +81,7 @@ Stay tuned - example code will be up soon. I will walk you through all the code 
 
 ## Slide decks
 
-<iframe src="talks/worked_example.html"
+<iframe src="https://karajones.github.io/talks/worked_example.html"
         style="width:100%; aspect-ratio:16/9; border:none;"
         allow="fullscreen" allowfullscreen></iframe>
 
