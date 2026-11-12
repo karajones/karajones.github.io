@@ -81,7 +81,9 @@ Stay tuned - example code will be up soon. I will walk you through all the code 
 
 ## Slide decks
 
-I'll post the slide decks here after the workshop.
+<iframe src="talks/worked_example.html"
+        style="width:100%; aspect-ratio:16/9; border:none;"
+        allow="fullscreen" allowfullscreen></iframe>
 
 ## Links to other resources
 
