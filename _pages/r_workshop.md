@@ -77,10 +77,10 @@ We'll be making plots with the [Golem Grad Tortoise Data](https://github.com/rfo
 
 ## Code
 
-+ [Finished violin plot](https://karajones.github.io/talks/example_violin_plot.R){download="https://karajones.github.io/talks/example_violin_plot.R"}
-+ [Finished point plot](https://karajones.github.io/talks/example_point_smooth_plot.R){download="https://karajones.github.io/talks/example_point_smooth_plot.R"}
++ [Finished violin plot](https://karajones.github.io/talks/example_violin_plot.R)
++ [Finished point plot](https://karajones.github.io/talks/example_point_smooth_plot.R)
 + [Skeleton point plot](https://karajones.github.io/talks/example_point_smooth_plot_todo.R
-){download="https://karajones.github.io/talks/example_point_smooth_plot_todo.R"}
+)
 
 ## Slide decks
 
